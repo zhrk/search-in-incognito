@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Search in incognito",
+  "version": "0.0.1",
+  "description": "Adds a context menu option to search in incognito",
+  "default_locale": "en",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "incognito": "spanning"
+}
